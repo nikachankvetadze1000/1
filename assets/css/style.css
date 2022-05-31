@@ -140,3 +140,31 @@ header .container .header_menu nav ul li a{
 .figure_container .get_started{
     margin-top: 40px;
 }
+
+
+.test_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 75px;
+    
+    
+  
+}
+ 
+.test_container .guide .full{
+    padding: 10px 20px;
+    background-color: red;
+    
+
+ 
+    
+}
+
+.test_container .guide h2{
+    font-size: 20px; 
+    margin-top: 15px; 
+    width: 90%;
+    font-weight: 400;
+}
+
