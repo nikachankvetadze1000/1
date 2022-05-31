@@ -1,0 +1,136 @@
+*{
+   position: relative;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.473);
+    font-family: 'Playfair Display', serif;
+}
+
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .header_menu nav ul li a{
+    color: white;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+header .logo span{
+    color: white;
+    font-size: 29px;
+    font-family: 'Playfair Display', serif;
+
+}
+ 
+header .logo img{
+    margin-right: 15px;
+}
+
+header .header_rights_content{
+    display: flex;
+    align-items: center;
+}
+
+header .container .header_menu ul{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .container .header_menu ul li{
+    margin-right: 40px;
+}
+
+.header_contact_us a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgb(12, 115, 175);
+    color: white;
+}
+
+
+.figure_container figure img{
+    width: 100%; 
+    height: 100vh;
+ }
+
+
+ .figure_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.figure_container figure{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    flex-direction: column ;
+    width: 1200px;
+}
+
+.text h1{
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 70px;
+    width: 60%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text h2{
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 17px;
+    width: 43%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.get_started a{
+    padding: 10px 20px;
+    background-color:rgb(12, 115, 175);
+    color: white;
+}
+
