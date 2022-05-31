@@ -20,7 +20,6 @@ header{
     z-index: 2;
     padding: 15px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.473);
-    font-family: 'Playfair Display', serif;
 }
 
 
@@ -33,7 +32,6 @@ header .container{
 header .container .header_menu nav ul li a{
     color: white;
     font-size: 25px;
-    font-family: 'Playfair Display', serif;
 }
 
 .logo{
@@ -45,7 +43,7 @@ header .container .header_menu nav ul li a{
 header .logo span{
     color: white;
     font-size: 29px;
-    font-family: 'Playfair Display', serif;
+    font-family:'Playfair Display', serif;;
 
 }
  
@@ -109,7 +107,6 @@ header .container .header_menu ul li{
 .text{
     display: flex;
     position: absolute;
-    font-family: 'Work Sans', sans-serif;
     flex-direction: column ;
     width: 1200px;
 }
@@ -118,14 +115,12 @@ header .container .header_menu ul li{
     color: rgba(255, 255, 255, 0.808);
     font-size: 70px;
     width: 60%;
-    font-family: 'Work Sans', sans-serif;
 }
 
 .text h2{
-    color: rgba(255, 255, 255, 0.808);
-    font-size: 17px;
+    color: rgba(255, 255, 255, 0.548);
+    font-size: 18px;
     width: 43%;
-    font-family: 'Work Sans', sans-serif;
 }
 
 .get_started a{
@@ -134,3 +129,14 @@ header .container .header_menu ul li{
     color: white;
 }
 
+header .container .header_menu nav ul li a{
+    font-family: 'Playfair Display', serif;
+}
+
+.figure_container .text{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.figure_container .get_started{
+    margin-top: 40px;
+}
