@@ -147,7 +147,6 @@ header .container .header_menu nav ul li a{
     align-items: center;
     justify-content: center;
     margin: 75px;
-    top: 100px;
     
     
   
@@ -166,63 +165,3 @@ header .container .header_menu nav ul li a{
     font-weight: 400;
 }
 
-.about_us{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    width: 1300px;
-    max-height: 80%;
-}
-
-.zip{
-    margin-left: 80px;
-}
-
-.about_us .zip .small{
-    position: absolute;
-    top: 250px;
-    z-index: 2;
-    right: -100px;
-}
-
-
-.about_us .img_text{
-    margin-left: 140px;
-}
-
-.about_us .zip .big{
-    padding: 7px;
-    border: 1px solid burlywood;
-    border-top: 0px;
-}
-
-.about_us .img_text h1{
-    color: rgba(32, 148, 230, 1);
-    font-weight: 500;
-    font-size: 18px;
-    width: 85px;
-    height: 27px;
-    font-family: 'Playfair Display', serif;
-}
-
-.about_us .img_text h2{
-    font-size: 45px;
-    margin-top: 34px;
-    margin-bottom: 34px;
-    font-family: 'Playfair Display', serif;
-}
-
-.about_us .img_text h3{
-    font-weight: 400;
-    margin-bottom: 20px;
-    font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.about_us .img_text h4{
-    font-weight: 400;
-    margin-bottom: 40px;
-    font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
-}
