@@ -43,7 +43,7 @@ header .container .header_menu nav ul li a{
 header .logo span{
     color: white;
     font-size: 29px;
-    font-family:'Playfair Display', serif;;
+    font-family:'Playfair Display', serif;
 
 }
  
@@ -166,11 +166,16 @@ header .container .header_menu nav ul li a{
     font-weight: 400;
 }
 
+
+/* about us */
+
+
 .about_us{
     display: flex;
     margin: auto;
     max-height: 80%;
     width: 1200px;
+    max-width: 100%;
 }
 
 .zip{
@@ -231,4 +236,122 @@ header .container .header_menu nav ul li a{
 .big_div{
     width: 100%;
     margin-top: 153px;
+}
+
+@media (max-width: 420px) {
+    .container{
+        width: 400px;
+    }
+    
+
+
+
+    .about_us{
+        display: block;
+    }
+    .about_us .img_text{
+        width: 100%;
+    }
+
+    .figure_container img{
+        width: 100%;
+    }
+
+    header .container{
+        width: 100%;
+    }
+     
+    header .logo span{
+        
+        font-size: 15px;
+        
+    
+    }
+
+    header{
+        padding: 4px 0;
+    }
+
+    header .container .header_menu nav ul li a{
+        font-size: 15px;
+    }
+
+    header .logo img{
+        margin-right: 4px;
+    }
+
+    header .container .header_menu ul li{
+        margin-right: 15px;
+    }
+
+    .header_contact_us a{
+        padding: 5px 10px;
+    }
+
+    .figure_container figure img{
+        width: 100%; 
+        height: 100vh;
+    }
+
+    .text{
+        width: 370px;
+    }
+
+    .text h1{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .text h2{
+        font-size: 12px;
+        width: 65%;
+    }
+    .logo{
+        width: 60%;
+        height: 60%;
+    }
+
+    .about_us .zip .big{
+        padding: 3px;
+        max-width: 350px;
+        max-height: 600px;
+        
+       
+    
+    }
+
+    .test_container .guide {
+        padding-top: 5px;
+        padding-right: 0;
+        padding-left: 10px;
+        width: 65%;
+    }
+
+    .test_container .guide h2{
+        font-size: 15px; 
+        margin-top: 10px; 
+        width: 80%;
+        font-weight: 400;
+    }
+
+    .about_us .zip .small{
+        position: absolute;
+        bottom: -40px;
+        max-width: 90%;
+        max-height: 90%;
+        left: 200px;
+    }
+
+    .about_us .img_text{
+        padding: 20px 0 20px 20px;
+        font-size: 15px;
+    }
+
+    .test_container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 36px;
+        top: 79px;
+    }
 }
