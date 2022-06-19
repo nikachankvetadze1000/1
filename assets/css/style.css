@@ -141,6 +141,7 @@ header .container .header_menu nav ul li a{
     margin-top: 40px;
 }
 
+/* test container */
 
 .test_container{
     display: flex;
@@ -148,15 +149,18 @@ header .container .header_menu nav ul li a{
     justify-content: center;
     margin: 75px;
     top: 153px;
-    
-    
-  
 }
+
+
  
 .test_container .guide {
     padding: 20px 25px;
     border: 1px solid white;
     background-color: rgb(204, 204, 204); 
+    margin: 10px;
+    animation-name: flip;
+    animation-timing-function: ease;
+    transition: 0.6s;
 }
 
 .test_container .guide h2{
@@ -165,6 +169,12 @@ header .container .header_menu nav ul li a{
     width: 80%;
     font-weight: 400;
 }
+
+.guide:hover{
+    transform: rotateX(-40deg);
+
+}
+
 
 
 /* about us */
