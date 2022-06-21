@@ -161,6 +161,7 @@ header .container .header_menu nav ul li a{
     animation-name: flip;
     animation-timing-function: ease;
     transition: 0.6s;
+    transform: perspective(1000px);
 }
 
 .test_container .guide h2{
@@ -171,8 +172,7 @@ header .container .header_menu nav ul li a{
 }
 
 .guide:hover{
-    transform: rotateX(-40deg);
-
+    transform:perspective(1000px)   rotateX(30deg);
 }
 
 
