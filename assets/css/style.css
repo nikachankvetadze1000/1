@@ -82,6 +82,8 @@ header .container .header_menu ul li{
     color: white;
 }
 
+/* figure container */
+
 
 .figure_container figure img{
     width: 100%; 
@@ -240,13 +242,142 @@ header .container .header_menu nav ul li a{
     margin-bottom: 40px;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
-}
+} 
+
 
 
 .big_div{
     width: 100%;
     margin-top: 153px;
 }
+
+/* our services */
+
+.before_services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 256px;
+    margin-bottom: 64px;
+}   
+
+
+.before_services h1{
+    color:rgba(32, 148, 230, 1);
+    font-weight: 500;
+    font-size: 18px;
+    font-family:'Playfair Display', serif;
+}
+
+
+.before_services h2{
+    font-weight: 500;
+    font-size: 45px;
+    font-family:'Playfair Display', serif;
+}
+
+.our_services{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 25px;
+    width: 100%;
+
+}
+
+
+.our_services .city_full{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+}
+
+.city_png{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.city_text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    left: 31px;
+    
+}
+ 
+
+.city_text h1{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family:'Playfair Display', serif;
+    font-size: 24px;
+    
+}
+
+.city_text h2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.692);
+    font-family: 'Work Sans', sans-serif; 
+}
+
+#btnnn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+#btnn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+#btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+.our_services .add_cart{
+    margin-top: 40px;
+}
+
+.red{
+    background-color: red !important;  
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 420px) {
     .container{
@@ -365,3 +496,5 @@ header .container .header_menu nav ul li a{
         top: 79px;
     }
 }
+
+
